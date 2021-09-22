@@ -1,7 +1,3 @@
-# rockpaper
-rock paper
-
-
 import random
 
 while True:
@@ -12,7 +8,7 @@ while True:
 
     while player not in choice:
         player = input("rock, paper, scissors?").lower()
-        
+
     if player == computer:
         print (f"computer: {computer} ")
         print (f"player: {player}")
@@ -37,7 +33,7 @@ while True:
             print(f"computer: {computer}")
             print(f"player: {player}")
             print("You Win!")
-            
+
     elif player == "paper":
         if computer == "rock":
             print(f"computer: {computer}")
